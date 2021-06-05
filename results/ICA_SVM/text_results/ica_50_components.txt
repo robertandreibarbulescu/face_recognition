@@ -1,0 +1,54 @@
+Number of Data Samples:  1288
+Size of a data sample:  1850
+Number of Class Labels:  7
+
+size of training Data is  966 and Testing Data is  322
+Projecting the input data on the eigenfaces orthonormal basis
+
+Sample Data point after applying ICA
+ [-3.71086620e-02 -6.59055884e-02  1.65313988e-02 -1.69194753e-02
+ -6.63377391e-03  1.62667889e-02 -2.88695104e-02  3.47898510e-02
+ -2.68535578e-05 -3.35159558e-03 -9.57860973e-04 -1.59453069e-02
+ -3.15906462e-02 -2.53138779e-02 -1.54986805e-02  6.14061022e-03
+ -1.00259140e-02  6.59579100e-03  8.70182391e-03 -2.29444674e-04
+ -1.77257739e-02  7.08505645e-03 -1.28880334e-02  4.84498305e-02
+ -1.45831680e-02 -4.63044989e-04 -6.88732666e-04 -1.04891342e-01
+  9.11422827e-02  3.50123607e-02  2.02953847e-02 -1.27018474e-02
+ -6.02802504e-02  8.13067841e-02 -1.00414218e-02 -8.87978900e-03
+ -4.84024574e-02 -1.42071612e-01 -7.46151254e-02  2.08064117e-03
+ -4.55945873e-03 -3.37282511e-03  6.91408044e-03 -4.45588253e-02
+  1.83337961e-02 -1.32411520e-02 -5.78800182e-03 -2.51057888e-02
+ -2.40676472e-01  6.47405042e-03]
+-----------------------------------------------------
+
+Dimesnsions of training set = (966, 1850) and Test Set = (322, 1850)
+Fitting the classifier to the training set
+done in 15.844s
+
+Best estimator found by grid search:
+SVC(C=10000.0, class_weight='balanced', gamma=0.001)
+
+Predicting people's names on the test set
+Accuracy score:74.53%
+                   precision    recall  f1-score   support
+
+     Ariel Sharon       0.48      0.77      0.59        13
+     Colin Powell       0.80      0.85      0.82        60
+  Donald Rumsfeld       0.45      0.63      0.52        27
+    George W Bush       0.92      0.77      0.84       146
+Gerhard Schroeder       0.63      0.68      0.65        25
+      Hugo Chavez       0.64      0.60      0.62        15
+       Tony Blair       0.67      0.67      0.67        36
+
+         accuracy                           0.75       322
+        macro avg       0.65      0.71      0.67       322
+     weighted avg       0.77      0.75      0.75       322
+
+Confusion Matrix is:
+[[ 10   0   3   0   0   0   0]
+ [  1  51   3   4   0   0   1]
+ [  4   3  17   2   1   0   0]
+ [  3   6  10 112   4   4   7]
+ [  0   0   4   1  17   1   2]
+ [  0   2   0   1   1   9   2]
+ [  3   2   1   2   4   0  24]]

@@ -1,0 +1,45 @@
+Number of Data Samples:  1288
+Size of a data sample:  1850
+Number of Class Labels:  7
+
+size of training Data is  966 and Testing Data is  322
+done in 0.789s
+
+Projecting the input data on the eigenfaces orthonormal basis
+done in 0.870s
+
+Sample Data point after applying LDA
+ [ 1.88147419 -0.07484844 -1.54941541 -3.85167838 -0.34872458  1.13635224]
+-----------------------------------------------------
+
+Dimesnsions of training set = (966, 1850) and Test Set = (322, 1850)
+Fitting the classifier to the training set
+Done in 6.561s
+Best estimator found by grid search:
+SVC(C=1000.0, class_weight='balanced', gamma=0.0001)
+Predicting people's names on the test set
+
+Accuracy score:85.40%
+                   precision    recall  f1-score   support
+
+     Ariel Sharon       0.60      0.69      0.64        13
+     Colin Powell       0.77      0.88      0.82        60
+  Donald Rumsfeld       0.70      0.85      0.77        27
+    George W Bush       0.98      0.86      0.92       146
+Gerhard Schroeder       0.77      0.96      0.86        25
+      Hugo Chavez       0.77      0.67      0.71        15
+       Tony Blair       0.91      0.86      0.89        36
+
+         accuracy                           0.85       322
+        macro avg       0.79      0.82      0.80       322
+     weighted avg       0.87      0.85      0.86       322
+
+Confusion Matrix is:
+[[  9   2   2   0   0   0   0]
+ [  3  53   2   1   0   1   0]
+ [  2   2  23   0   0   0   0]
+ [  0   8   5 125   4   2   2]
+ [  0   1   0   0  24   0   0]
+ [  0   2   0   0   2  10   1]
+ [  1   1   1   1   1   0  31]]
+
