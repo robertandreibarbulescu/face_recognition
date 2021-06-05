@@ -129,17 +129,3 @@ fisherface_titles = ["fisherface %d" % i for i in range(4)]
 plot_images_lda(pca, lda, fisherface_titles, h, w)
 
 plt.show()
-
-"""
-References
-
-https://www.geeksforgeeks.org/ml-face-recognition-using-pca-implementation/
-
-https://scikit-learn.org/stable/auto_examples/applications/plot_face_recognition.html
-
-https://www.geeksforgeeks.org/ml-face-recognition-using-eigenfaces-pca-algorithm/
-
-https://github.com/carloscarvajal1cc/Face-Recognition-with-PCA/blob/master/FaceRecognition.ipynb
-
-https://stackabuse.com/implementing-lda-in-python-with-scikit-learn/
-"""
