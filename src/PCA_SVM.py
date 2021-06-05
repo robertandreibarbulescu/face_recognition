@@ -247,20 +247,3 @@ plot_gallery(eigenfaces, eigenface_titles, h, w)
 
 plt.show()
 
-"""
-References
-
-https://www.geeksforgeeks.org/ml-face-recognition-using-pca-implementation/
-
-https://scikit-learn.org/stable/auto_examples/applications/plot_face_recognition.html
-
-https://www.geeksforgeeks.org/ml-face-recognition-using-eigenfaces-pca-algorithm/
-
-https://github.com/carloscarvajal1cc/Face-Recognition-with-PCA/blob/master/FaceRecognition.ipynb
-
-https://github.com/essanhaji/face_recognition_pca/blob/master/main.ipynb
-
-https://github.com/maurinl26/LFW_Face_Recognition/blob/master/Face_Recognition_Projet_ML.ipynb
-
-"""
-
